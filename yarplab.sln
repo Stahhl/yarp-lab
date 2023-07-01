@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yarplab", "proxy\yarplab.csproj", "{FBA86092-6E47-4CA5-AA11-5B020ED2AF99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "clientA", "clientA\clientA.csproj", "{53EA6990-5671-4B12-9561-04ED2D0E247B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "clientB", "clientB\clientB.csproj", "{512AC69D-F23F-4C9A-A99F-E3850A60F339}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBA86092-6E47-4CA5-AA11-5B020ED2AF99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBA86092-6E47-4CA5-AA11-5B020ED2AF99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBA86092-6E47-4CA5-AA11-5B020ED2AF99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBA86092-6E47-4CA5-AA11-5B020ED2AF99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53EA6990-5671-4B12-9561-04ED2D0E247B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53EA6990-5671-4B12-9561-04ED2D0E247B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53EA6990-5671-4B12-9561-04ED2D0E247B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53EA6990-5671-4B12-9561-04ED2D0E247B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{512AC69D-F23F-4C9A-A99F-E3850A60F339}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{512AC69D-F23F-4C9A-A99F-E3850A60F339}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{512AC69D-F23F-4C9A-A99F-E3850A60F339}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{512AC69D-F23F-4C9A-A99F-E3850A60F339}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
